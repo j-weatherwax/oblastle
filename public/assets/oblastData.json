@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "name": "Cherkasy",
+    "latitude": 49.2604,
+    "longitude": 31.3549
+  },
+  {
+    "id": 2,
+    "name": "Chernihiv",
+    "latitude": 51.3552,
+    "longitude": 32.0043
+  },
+  {
+    "id": 3,
+    "name": "Chernivtsi",
+    "latitude": 48.268,
+    "longitude": 25.9769
+  },
+  {
+    "id": 4,
+    "name": "Crimea",
+    "latitude": 45.314,
+    "longitude": 34.3566
+  },
+  {
+    "id": 5,
+    "name": "Dnipropetrovsk",
+    "latitude": 48.3018,
+    "longitude": 34.8459
+  },
+  {
+    "id": 6,
+    "name": "Donetsk",
+    "latitude": 48.0458,
+    "longitude": 37.6763
+  },
+  {
+    "id": 7,
+    "name": "Ivano-Frankivsk",
+    "latitude": 48.7023,
+    "longitude": 24.6197
+  },
+  {
+    "id": 8,
+    "name": "Kharkiv",
+    "latitude": 49.6145,
+    "longitude": 36.5078
+  },
+  {
+    "id": 9,
+    "name": "Kherson",
+    "latitude": 46.7008,
+    "longitude": 33.5611
+  },
+  {
+    "id": 10,
+    "name": "Khmelnytskyi",
+    "latitude": 49.5076,
+    "longitude": 26.9312
+  },
+  {
+    "id": 11,
+    "name": "Kirovohrad",
+    "latitude": 48.4733,
+    "longitude": 32.0855
+  },
+  {
+    "id": 12,
+    "name": "Kyiv",
+    "latitude": 50.4423,
+    "longitude": 30.5494
+  },
+  {
+    "id": 13,
+    "name": "Kyiv Oblast",
+    "latitude": 50.2982,
+    "longitude": 30.4574
+  },
+  {
+    "id": 14,
+    "name": "Luhansk",
+    "latitude": 48.9861,
+    "longitude": 39.0195
+  },
+  {
+    "id": 15,
+    "name": "Lviv",
+    "latitude": 49.719,
+    "longitude": 23.9193
+  },
+  {
+    "id": 16,
+    "name": "Mykolaiv",
+    "latitude": 47.4455,
+    "longitude": 31.7802
+  },
+  {
+    "id": 17,
+    "name": "Odesa",
+    "latitude": 46.732,
+    "longitude": 29.8622
+  },
+  {
+    "id": 18,
+    "name": "Poltava",
+    "latitude": 49.733,
+    "longitude": 33.7811
+  },
+  {
+    "id": 19,
+    "name": "Rivne",
+    "latitude": 51.04,
+    "longitude": 26.3933
+  },
+  {
+    "id": 20,
+    "name": "Sevastopol",
+    "latitude": 44.5765,
+    "longitude": 33.6711
+  },
+  {
+    "id": 21,
+    "name": "Sumy",
+    "latitude": 51.1067,
+    "longitude": 34.1251
+  },
+  {
+    "id": 22,
+    "name": "Ternopil",
+    "latitude": 49.4012,
+    "longitude": 25.6493
+  },
+  {
+    "id": 23,
+    "name": "Vinnytsya",
+    "latitude": 48.9205,
+    "longitude": 28.687
+  },
+  {
+    "id": 24,
+    "name": "Volyn",
+    "latitude": 51.1913,
+    "longitude": 24.8725
+  },
+  {
+    "id": 25,
+    "name": "Zakarpattia",
+    "latitude": 48.4047,
+    "longitude": 23.2774
+  },
+  {
+    "id": 26,
+    "name": "Zaporizhzhia",
+    "latitude": 47.2698,
+    "longitude": 35.7037
+  },
+  {
+    "id": 27,
+    "name": "Zhytomyr",
+    "latitude": 50.6396,
+    "longitude": 28.4776
+  }
+]
