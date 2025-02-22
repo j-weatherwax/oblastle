@@ -26,17 +26,26 @@ export function checkGameState(guess, target, currentGuessIndex, setGameState) {
 
     setTimeout(() => {
       confetti("tsparticles", {
-        colors: [
-          "#26ccff",
-          "#a25afd",
-          "#ff5e7e",
-          "#88ff5a",
-          "#fcff42",
-          "#ffa62d",
-          "#ff36ff",
-        ],
-        shapes: ["square", "circle"],
+        count: 150,
+        startVelocity: 30,
+        spread: 90,
+        gravity: 0.7,
       });
+      setTimeout(() => {
+        const confettiContainer = document.getElementById("tsparticles");
+        if (confettiContainer) {
+          confettiContainer.style.transition = "opacity 2s ease-out";
+          confettiContainer.style.opacity = "0";
+        } else {
+          console.log("Confetti container not found!");
+        }
+
+        setTimeout(() => {
+          if (confettiContainer) {
+            confettiContainer.style.display = "none";
+          }
+        }, 2000);
+      }, 500);
     }, 3000);
     return;
   }
