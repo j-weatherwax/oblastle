@@ -9,7 +9,7 @@
 // 🟩 🟩 🟩 🟩 ⬜ ⬅️
 // 🟩 🟩 🟨 ⬜ ⬜ ↘️
 
-// {https://j-weatherwax.github.io/oblastle}
+// https://j-weatherwax.github.io/oblastle
 
 import { formatDate, daysSinceFirstPuzzle } from "./dateUtils";
 
@@ -47,7 +47,7 @@ export function copyToClipboard(
     })
     .join("");
 
-  text += results + "\n{https://j-weatherwax.github.io/oblastle}";
+  text += results + "\nhttps://j-weatherwax.github.io/oblastle";
 
   navigator.clipboard.writeText(text);
 }
