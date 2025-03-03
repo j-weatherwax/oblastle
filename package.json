@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://j-weatherwax.github.io/oblastle",
+  "homepage": "https://oblastle.com/",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "dev": "vite",

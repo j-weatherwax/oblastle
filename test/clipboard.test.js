@@ -35,7 +35,7 @@ describe("copyToClipboard", () => {
     copyToClipboard(currentGuessIndex, guesses, gameState, currentDate);
 
     expect(navigator.clipboard.writeText).toHaveBeenCalledWith(
-      "#Oblastle #2 (22.02.2025) 4/6 (100%)\n🟩 🟩 ⬜ ⬜ ⬜ ➡️\n🟩 🟩 🟩 ⬜ ⬜ ⬇️\n🟩 🟩 🟩 🟩 🟨 ↘️\n🟩 🟩 🟩 🟩 🟩 🎉\n\nhttps://j-weatherwax.github.io/oblastle"
+      "#Oblastle #2 (22.02.2025) 4/6 (100%)\n🟩 🟩 ⬜ ⬜ ⬜ ➡️\n🟩 🟩 🟩 ⬜ ⬜ ⬇️\n🟩 🟩 🟩 🟩 🟨 ↘️\n🟩 🟩 🟩 🟩 🟩 🎉\n\nhttps://oblastle.com/"
     );
   });
 
@@ -58,7 +58,7 @@ describe("copyToClipboard", () => {
     copyToClipboard(currentGuessIndex, guesses, gameState, currentDate);
 
     expect(navigator.clipboard.writeText).toHaveBeenCalledWith(
-      "#Oblastle #2 (22.02.2025) X/6 (90%)\n🟩 🟨 ⬜ ⬜ ⬜ ➡️\n🟩 🟩 🟩 ⬜ ⬜ ↘️\n🟩 🟩 🟩 🟨 ⬜ ↘️\n🟩 🟩 🟩 🟨 ⬜ ➡️\n🟩 🟩 🟩 🟩 ⬜ ➡️\n🟩 🟩 🟩 🟩 🟨 ↘️\n\nhttps://j-weatherwax.github.io/oblastle"
+      "#Oblastle #2 (22.02.2025) X/6 (90%)\n🟩 🟨 ⬜ ⬜ ⬜ ➡️\n🟩 🟩 🟩 ⬜ ⬜ ↘️\n🟩 🟩 🟩 🟨 ⬜ ↘️\n🟩 🟩 🟩 🟨 ⬜ ➡️\n🟩 🟩 🟩 🟩 ⬜ ➡️\n🟩 🟩 🟩 🟩 🟨 ↘️\n\nhttps://oblastle.com/"
     );
   });
 });
