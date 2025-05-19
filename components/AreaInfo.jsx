@@ -97,7 +97,7 @@ export const AreaInfo = ({
         </a>
 
         <button
-          className="flex w-full h-10 border border-gray-200 rounded-lg px-2 py-1 text-center justify-center font-semibold whitespace-nowrap hover:bg-gray-200 items-center gap-2 overflow-ellipsis"
+          className="flex w-full h-10 border border-gray-200 rounded-lg px-2 py-1 text-center justify-center font-semibold whitespace-nowrap hover:bg-gray-200 items-center gap-2 overflow-ellipsis cursor-pointer"
           onClick={() => handleSharing()}
         >
           <svg
